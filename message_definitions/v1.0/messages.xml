@@ -2243,7 +2243,21 @@
       <field name="yaw_c"  type="float"/>
   </message>
 
-   <!--251 is free -->
+  <message name="KALAMOS" id="251">
+      <field name="Status"   type="uint8"/>
+      <field name="Height"   type="float"/>
+      <field name="Avoid_psi"   type="float"/>
+      <field name="Avoid_rate"   type="float"/>
+      <field name="Descend_z"   type="float"/>
+      <field name="Joe_x"   type="float"/>
+      <field name="Joe_y"  type="float"/>
+      <field name="Land_x"  type="float"/>
+      <field name="Land_y"  type="float"/>
+      <field name="V_optic_x"   type="float"/>
+      <field name="V_optic_y"   type="float"/>
+      <field name="Att_calib_phi"   type="float"/>
+      <field name="Att_calib_theta"   type="float"/>
+  </message>
 
    <message name="GPS_SMALL" id="252">
     <field name="multiplex_speed"  type="uint32">bits 31-21 course in decideg : bits 20-10 ground speed in cm/s : bits 9-0 climb speed in cm/s</field>
